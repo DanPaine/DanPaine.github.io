@@ -62,28 +62,47 @@
 
 						<!-- Posts -->
 							<section class="posts">
-								<article>
+								<style>
+									article {
+									  display: flex;
+									  flex-direction: column;
+									}
+								  
+									article .image {
+									  height: 600px; /* Set the desired fixed height for the images */
+									  text-align: center; /* Center the image vertically in the container */
+									  display: flex;
+									  justify-content: center;
+									  align-items: center;
+									}
+								  
+									article p {
+									  margin-top: auto;
+									}
+								  </style>
+								  
+								  <article>
 									<header>
-										<h2><a href="#">Project 1<br />
-										ipsum faucibus</a></h2>
+									  <h2><a href="#">Project 1<br />Data Wrangling Programming Exercise in R</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/Rlogo.png" alt="" /></a>
+									<p>Advanced data wrangling exercise for an interview at the data department of a major hospital programmed in R</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+									  <li><a href="https://github.com/DanPaine/R-Exercise" class="button">See More</a></li>
 									</ul>
-								</article>
-								<article>
+								  </article>
+								  
+								  <article>
 									<header>
-										<h2><a href="#">Project 2<br />
-										imperdiet lorem</a></h2>
+									  <h2><a href="#">Project 2<br />Introduction to Statistical Learning</a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<a href="#" class="image fit"><img src="images/Statistical Learning with Applications in Python.jpg" alt="" /></a>
+									<p>Working through examples in a famous Statistics and Programming textbook. Work in progress.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
+									  <li><a href="#" class="button">See More</a></li>
 									</ul>
-								</article>
+								  </article>
+								<!--
 								<article>
 									<header>
 										<h2><a href="#">Project 3<br />
@@ -128,7 +147,7 @@
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
-							</section>
+							</section> -->
 
 						<!-- Footer
 							<footer>
@@ -202,4 +221,3 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-</html>
